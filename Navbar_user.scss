@@ -1,0 +1,117 @@
+
+    .navbar-logo {
+      width: 40vh;
+      height: auto;
+    }
+    
+    .navbar-content {
+      display: flex;
+      align-items: center;
+      padding-bottom: 4vh;
+    }
+    
+    .navbar-left {
+      margin-right: 5vh;
+    }
+    
+    .navbar-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+  }
+  
+  .navbar-list li {
+    margin: 0 1.5vh;
+    font-size: 3.5vh;
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-weight: bold; /* Make the font bold */
+    text-align: center;
+  }
+  
+  .navbar-list a {
+    text-decoration: none;
+    color: white;
+  }
+    
+    .navbar-list li a {
+      text-decoration: none;
+      color: #0F4182;
+    }
+    
+    .navbar-right {
+      display: flex;
+      gap: 1vh;
+      margin-left: 10vh;
+    }
+    
+   
+  
+    .user-welcome {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 3vh;
+      background-color: #A5DAF8;
+      padding: 1vh; /* Adjusted padding value */
+      border-radius: 6vh;
+    }
+    
+    
+    .user-welcome-image {
+      margin-left: 1vh; /* Adjust the margin as needed to create space between text and image */
+    }
+  
+    
+    .PROF-image {
+      width: 5vh;
+      height: auto;
+      padding: 2vh;
+    }
+  
+    .user-welcome-icon {
+      padding: 0.5vh 1.0vh;
+      margin-bottom: 1vh;
+      cursor: pointer; /* Add this line to make the cursor a pointer */
+    }
+  
+    .user-welcome {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 2.5vh;
+      position: relative;
+    }
+    
+    .additional-content {
+      position: absolute;
+      top: calc(100% + 1vw); /* Adjust the spacing between user-welcome and dropdown */
+      left: 0%; /* Center the dropdown horizontally */
+      background-color: #2d92cd; /* Set the background color for the dropdown */
+      border: 0.4vw solid #265182; /* Add a border for better visibility */
+      padding: 1vw; /* Adjust the padding as needed */
+      margin-top: -1vh;
+      z-index: 1;
+      border-radius: 4vw; /* Add border-radius for rounded corners */
+      min-width: 12vw; /* Set a minimum width for the dropdown */
+    }
+    
+    .user-welcome:hover .additional-content {
+      display: block;
+    }
+    
+    .additional-content .settings,
+    .additional-content .button-logout {
+    position: relative; /* Add position relative */
+    z-index: 2; /* Put the buttons in front of other content */
+    display: flex;
+    align-items: center;
+    padding: 1.2vw; 
+    cursor: pointer;
+    }
+
+    .additional-content .settings svg,
+    .additional-content .button-logout svg {
+      margin-right: 0.7vw; /* Adjust the spacing between the icon and text */
+    }
+      

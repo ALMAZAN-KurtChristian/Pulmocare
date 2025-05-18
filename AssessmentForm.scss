@@ -1,0 +1,113 @@
+.AssessmentForm {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(to left, #014BAE, #4FB8E1);
+  border: 1px solid #ddd;
+  border-radius: 0.5rem; 
+  position: relative;
+}
+
+.assessmentbot {
+  width: 17.5vw;
+  height: 32.5vw;
+  position: absolute;
+  left: 7rem;
+  top: 10rem;
+}
+
+.responsestext {
+  margin-left: 50rem;
+  padding: 1rem; /* Adjust padding as needed */
+  background-color: #68b3f5; /* Light blue background */
+  border-radius: 1rem; /* Rounded corners */
+  font-family: 'Arial', sans-serif; /* Nice font */
+  font-size: 1rem;
+  margin-top: 1rem; /* Add margin to separate from content above */
+  position: absolute; /* Make the container absolutely positioned */
+  transform: translateX(-50%); /* Adjust for center alignment */
+  z-index: 1; /* Ensure the container is above other content */
+  width: 40vw;
+}
+
+#response {
+  padding: 1.5rem; /* Adjust padding as needed */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  border-radius: 1rem; /* Round border */
+  border: 2px solid #007bff; /* Border color */
+  font-family: 'Arial', sans-serif; /* Nice font */
+}
+
+.AssessmentForm h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; 
+  color: rgb(33, 58, 105);
+}
+
+.AssessmentForm form {
+  margin-bottom: 1rem; 
+  margin-left: 30rem;
+  color: rgb(33, 58, 105);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.AssessmentForm label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem; 
+}
+
+.AssessmentForm textarea {
+  resize: vertical;
+
+}
+
+.AssessmentForm button {
+  padding: 1rem 2rem; 
+  background-color: #3d97f8;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  border-radius: 0.4rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; 
+  margin-top: 1rem;
+}
+
+.AssessmentForm button:hover {
+  background-color: #0056b3;
+}
+
+.AssessmentForm h3 {
+  font-size: 1.25rem; 
+  margin-bottom: 0.75rem; 
+  color: #333;
+}
+
+.AssessmentForm p {
+  margin-bottom: 0.75rem; 
+}
+
+.AssessmentForm .response-options {
+  position: absolute;
+  top: calc(100% + 1rem);
+  left: 0; 
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+  padding: 1rem; 
+}
+
+.AssessmentForm .response-options button {
+  margin-left: 0.5rem;
+}
+
+.AssessmentForm .response-input {
+  width: calc(50% - 0.5rem); 
+  margin-bottom: 1rem; 
+}

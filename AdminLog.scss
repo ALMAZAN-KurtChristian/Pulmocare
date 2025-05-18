@@ -1,0 +1,199 @@
+.admin-log-container {
+  background: linear-gradient(225deg, #50BAE2, #004AAD);
+  font-family: 'Kollektif', sans-serif;
+  margin: 0;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-Pulmocare-icon {
+  width: 40vh;
+  height: 25vh;
+  position: fixed;
+  left: 4.5vh;
+  top: -4vh;
+}
+
+.admin-user-icon {
+  width: 10vh;
+  height: 13vh;
+  margin: -2vh 0vh; /* Add margin to separate from the header */
+  margin-left: 40.5vh;
+}
+
+.admin-container_reg {
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(225deg, #50BAE2, #004AAD);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.admin-header h2 {
+  color: #103e7b;
+  text-align: center;
+  font-size: 2.5vw;
+  letter-spacing: .5vh;
+  font-weight: 150px;
+  font-family: 'Kollektif',sans-serif;
+  margin-top: 2vh; /* Add margin to separate from .taobg */
+}
+
+.admin-pulmo-care {
+  color: #66ABDA; 
+}
+
+.admin,
+.admin-password {
+  display: flex;
+  align-items: center;
+  margin: 1vh;
+  width: 100%; 
+  max-width: 48vh; 
+  height: 6vh;
+  background: #a8dbfa;
+  border-radius: 1.6vh;
+  color: #103e7b;
+  padding: .5vh;
+}
+
+.admin-icon {
+  margin: 0vh .7vh;
+  margin-left: 1.5vh;
+}
+
+.admin input,
+.admin-password input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #103e7b;
+  padding: .5vh 1vh;
+  width: 100%; 
+  border-left: .1vh solid #103e7b;
+}
+
+.admin::placeholder,
+.admin-password::placeholder {
+  color: #010202;
+}
+
+
+.admin-checkbox-and-forgot {
+  display: flex;
+  align-items: center;
+  margin: 1vh;
+  margin-top: 0; 
+  gap: 22vh;
+}
+
+.admin-check {
+  display: flex;
+  align-items: center;
+  color: #103e7b;
+}
+
+.admin-check input {
+  margin-right: .5vh;
+  color: #103e7b;
+  text-decoration: none;
+}
+
+
+.admin-submit-container {
+  display: flex;
+  gap: 3vh; 
+  margin: 3vh auto;
+}
+
+.admin-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 5.9vh;
+  background-color: #2563b6;
+  color: #ffffff;
+  border-radius: 5vh;
+  font-size: 1.9vh;
+  font-weight: 7vh;
+  cursor: pointer;
+  border: none;
+}
+
+
+.forgot-pass {
+  color: #103e7b;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.horizontal-line {
+  width: 45%;
+  border: none;
+  margin: 1vh auto;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  background-color: #103e7b;
+  height: .1vw;
+}
+
+.line-text {
+  margin: 0 1vh;
+  margin-bottom: 0px;
+  color: #103e7b;
+  font-size: 4vh;
+}
+
+
+.admin-password input[type="password"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #103e7b;
+  padding: .5vh 1vh;
+  width: 100%;
+  border-left: .1vh solid #103e7b;
+}
+
+.admin-password input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #103e7b;
+  padding: .5vh 1vh;
+  width: 100%;
+  border-left: 1px solid #103e7b;
+}
+
+/* Button to toggle password visibility */
+.admin-password button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Icon for the button */
+.admin-password button svg {
+  color: #103e7b;
+  font-size: 2vh;
+}
+
+
+.error-message {
+  color: white;
+  font-size: 1.8vh;
+  margin-top: 1vh;
+}

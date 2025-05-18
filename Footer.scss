@@ -1,0 +1,78 @@
+/* Remove margin from the body */
+body {
+  margin: 0;
+}
+
+/* Footer container */
+.footer {
+  background-color: #144E90;
+  color: white;
+  padding: 2vh 0; /* Adjust padding using vh units */
+  position: relative;
+  width: 100%;
+}
+
+/* Footer content wrapper */
+.footer-content {
+  max-width: 100vw; /* Set maximum width using vw units */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.FOOTERLOGO-image {
+  width: 25vw; /* Adjust image width using vw units */
+}
+
+/* Footer info section */
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Individual footer section */
+/* Footer section */
+.footer-section {
+  flex: 1 1 20vw; /* Adjust flex-basis using vw units */
+  margin-bottom: 2vh; /* Add space between sections using vh units */
+  text-align: center;
+}
+
+/* Footer image */
+.footer-section__image {
+  width: 10vw; /* Adjust image size using vw units */
+}
+
+/* Copyright text */
+.footer-copyright {
+  text-align: center;
+  margin-top: 2vh; /* Adjust margin using vh units */
+}
+.footer-section h3{
+  font-size: 3vh;
+}
+.footer-section h4{
+  font-size: 2.5vh;
+}
+.footer-section p{
+  font-size: 2vh;
+}
+.Reserved{
+ text-align: center;
+ font-size: 3vh;
+}
+
+#gmap{
+  text-decoration: underline;
+  color: white;
+  font-size: 1vw;
+}
+
+#gmap:hover{
+  color: #144E90;
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 100%;
+  }
+}

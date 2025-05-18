@@ -1,0 +1,35 @@
+.container-terms {
+  background: linear-gradient(to left, #014BAE, #4FB8E1);
+  width: 100%;
+}
+
+.TermsAndCondition-container {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10vh; 
+}
+
+.TermsAndCondition-container h1 {
+  font-size: 7vh;
+  color: #0F4182;
+  margin: 0;
+}
+
+.TermsAndCondition-container p {
+  font-size: 2vh;
+  color: #0F4182;
+  text-align: left; /* Align the text to the left */
+}
+
+.design-image {
+  position: absolute;
+  top: 981px;
+  right: 10;
+  width: 350px;
+  height: auto;
+  z-index: 1;
+}
+#last{
+  text-align: center;
+}

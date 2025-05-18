@@ -1,0 +1,156 @@
+/* forgotPassword.css */
+.bg_forgot {
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+    color: #ffffff;
+    width: 100%;
+    height: 95vh;
+    padding: 1vh;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  .bg-for-1{
+    width: 35vh;
+    height: 18vh;
+    left: 3vh;
+    top: 0vh;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  /* Style for the container */
+  .contain {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding: 2vh;
+    margin: -5vh auto 0; /* Adjust the margin-top value to move the container slightly to the top */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .keyimg {
+    width: 30vh; /* Adjust the width to your desired size */
+    height: auto; /* This keeps the aspect ratio and scales proportionally */
+    
+  }
+  
+  /* Style for the heading */
+  #h1-f {
+    font-size: 4vh;
+    color: #103e7b;
+    margin-bottom: 2vh;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  #text{
+    font-size: 2vh; /* Adjust the font size to your desired value */
+    width: 50vh;
+  }
+.dropdown {
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    width: 100%; 
+    max-width: 48vh;
+    height: 4vh;
+    background: #a8dbfa;
+    border-radius: 1.6vh;
+    color: #103e7b;
+    margin-right: 25vh;
+
+}
+  .mail {
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    width: 100%; 
+    max-width: 48vh;
+    height: 4vh;
+    background: #a8dbfa;
+    border-radius: 1.6vh;
+    color: #103e7b;
+    margin-right: 25vh;
+}
+
+
+
+  .mail input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #103e7b;
+    padding: .5vh 1vh;
+    width: 10vh; 
+    border-left: .2vh solid #103e7b;
+  }
+  
+  .mail::placeholder {
+    color: #010202;
+  }
+  
+  /* Style for the reset button */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button_submit {
+    margin-bottom: 1vh; /* Adjust the margin to create spacing between buttons */
+    background-color: #319DDB;
+    color: #fff;
+    padding: 1.4vh 4vh; /* Slightly larger button */
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    margin-top: 2vh; /* More spacing */
+    transition: background-color 0.2s; /* Smooth hover effect */
+    font-size: 1.5svh;
+  }
+  
+  .button_submit:hover {
+    background-color: #0056b3;
+  }
+
+  .back-button-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 1vh;
+    color: #103e7b;
+  }
+  
+ 
+
+  .button_back {
+      background-color: transparent;
+      color: #103e7b;
+      font-weight: bold; /* Add this line to make the text bold */
+      padding: .1vh .1vh;
+      border: none;
+      border-radius: .5vh;
+      cursor: pointer;
+      margin-top: 2vh;
+      transition: background-color 0.2s;
+  }
+
+  .button_back {
+    background-color: transparent;
+    color: #103e7b;
+    font-weight: bold;
+    padding: .1vh 0vh;
+    border: none;
+    border-radius: .5vh;
+    cursor: pointer;
+    margin-top: .2vh;
+    transition: background-color 0.2s;
+    font-size: 1.6vh; 
+}
+
+ 

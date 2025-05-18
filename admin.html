@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Page</h1>
+        <div id="messages">
+            <!-- Messages will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        // Fetch messages from server
+        fetch('messages.json')
+        .then(response => response.json())
+        .then(messages => {
+            const messagesContainer = document.getElementById('messages');
+            messages.forEach(message => {
+                const messageElement = document.createElement('div');
+                messageElement.innerHTML = `
+                    <p><strong>Name:</strong> ${message.name}</p>
+                    <p><strong>Email:</strong> ${message.email}</p>
+                    <p><strong>Message:</strong> ${message.message}</p>
+                    <hr>
+                `;
+                messagesContainer.appendChild(messageElement);
+            });
+        })
+        .catch(error => {
+            console.error('There was an error fetching messages:', error);
+        });
+    </script>
+</body>
+</html>

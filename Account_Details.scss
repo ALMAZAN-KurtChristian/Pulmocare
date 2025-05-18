@@ -1,0 +1,61 @@
+.bg_settings {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+}
+
+.Account_Container {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Set the height to fill the viewport */
+}
+
+.Account_Settings {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 60%; 
+    background: linear-gradient(to bottom, #55d0ff, #00acdf, #0080bf);
+    padding: 4vh; 
+    border-radius: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    position: relative; 
+}
+
+h2 {
+    color: #103e7b;
+    text-align: center;
+    font-size: 3.8vh;
+    letter-spacing: .1vh; 
+    font-weight: 700; 
+    font-family: 'Arial', sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 3vh; 
+    position: relative; 
+}
+
+.line-divider {
+    width: 100vh;
+    height: 2px;
+    background-color: #ffffff; 
+    margin: 0 auto; 
+}
+
+.profile-detail {
+    margin-bottom: 2.5vh;
+    font-weight: bold; 
+    padding: 1vh 5vh; 
+    color: #ffffff; 
+    border-radius: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+}
+
+.profile-detail-value {
+    padding: 1vh 2vh; /* Add padding to the value container */
+    color: #2c3e50; /* Set color for the value */
+
+}

@@ -1,0 +1,104 @@
+/* Base styles for the navbar */
+.navbar-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1vw .7vw; /* Adjust padding using vw units */
+  color: white;
+  position: static;
+  width: 95%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar-content-page {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left-page {
+  margin-right: 1vw; /* Adjust margin using vw units */
+}
+
+.navbar-logo-page {
+  width: 20vw; /* Adjust width using vw units */
+  height: auto;
+  margin-left: 1vw;
+}
+
+.navbar-list-page {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0; /* Reset margin */
+  padding: 0;
+}
+
+.navbar-list-page li {
+  margin: 0 2vw; /* Adjust margin using vw units */
+  font-size: 1.3vw; /* Adjust font size using vw units */
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-list-page a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-list-page li a {
+  text-decoration: none;
+  color: #0F4182;
+}
+
+.navbar-buttons-page{
+  
+}
+.navbar-buttons-page button {
+  padding: 1vw 2vw; /* Adjust padding using vw units */
+  align-items: right; /* Align items vertically */
+  margin-left: 1.5vw;
+}
+
+.navbar-button-admin-page,
+.navbar-button-login-page,
+.navbar-button-signup-page {
+  background-color: #A5DAF8;
+  border: none;
+  padding: 1vw;
+  margin: 1.5vh;
+  border-radius: 1.1vw; /* Adjust border radius using vw units */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2vw; /* Adjust font size using vw units */
+}
+
+.navbar-button-admin-page a {
+  text-decoration: none;
+  color: #319DDB;
+}
+
+.navbar-button-admin-page:hover {
+  background-color: #306aa8;
+}
+
+.navbar-button-login-page a {
+  text-decoration: none;
+  color: #319DDB;
+}
+
+.navbar-button-login-page:hover {
+  background-color: #306aa8;
+}
+
+.navbar-button-signup-page a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-button-signup-page:hover {
+  background-color: #306aa8;
+}

@@ -1,0 +1,298 @@
+
+
+.log-container {
+    background: linear-gradient(225deg, #50BAE2, #004AAD); /* Replace with your desired background color */
+    margin: 0; /* Reset default margin to ensure the background covers the entire page */
+    font-family: 'Kollektif', sans-serif;
+    height: 100%;
+    width: 60%;
+
+}
+
+
+.bg-login-1{
+    width: 35vh;
+    height: 18vh;
+    top: vh;
+    margin-left: 3.5vh;
+    display: flex;
+    position:sticky;
+    
+    
+}
+
+
+.bg-login-2{
+    width: 100%;
+    height: 80%;
+    margin-left: 1.0vh;
+    margin-top: -2.0vh;
+    display: flex;
+  
+}
+
+.bgdes1{
+    width: 16vh;
+    bottom: -4.5vh;
+    height: 15vh;
+    margin: -2vh auto; /* Add margin to separate from the header */
+    margin-top: 7vh;
+    margin-left: -4vh;
+    position:fixed;
+    opacity: 25%;
+}
+.bgdes2{
+    width: 18vh;
+    height: 22vh;
+    margin-top: 1vh;
+    margin-left: -6vh;
+    position:absolute;
+    opacity: 25%;
+
+}
+
+.bgdes3{
+    width: 45vh;
+    bottom: -7vh;
+    height: 35vh;
+    margin-left: 73.5vh;
+    position:fixed;
+    opacity: 25%;
+   
+}
+.bgdes4{
+    width: 35vh;
+    top: -2.5vh;
+    rotate: 45deg;
+    height: 35vh;
+    right: 70vh;
+    position:absolute;
+    opacity: 25%;
+   
+}
+
+  .bg-login-3 {
+    width: 6vh;
+    height: 8vh;
+    padding: .1vh;
+    margin: -2vh auto; /* Add margin to separate from the header */
+    margin-left: 25vh;
+  }
+  
+  .container_reg{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background-color: #ffffff;
+    display: flex;
+  }
+  
+  .header h2 {
+    color: #103e7b;
+    text-align: center;
+    font-size: 3.5vh;
+    letter-spacing: .2vh;
+    font-weight: 15vh;
+    font-family: 'Kollektif',sans-serif;
+    margin-top: 2vh; 
+  }
+  
+  .pulmo-care {
+    color: #66ABDA; 
+  }
+  
+  .user,
+  .password {
+    display: flex;
+    align-items: center;
+    margin: 1.2vh;
+    width: 100%; 
+    max-width: 52vh; 
+    height: 6vh;
+    background: #a8dbfa;
+    border-radius: 1.6vh;
+    color: #103e7b;
+    padding: .5vh;
+  }
+  
+  
+  
+  .user input,
+  .password input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #103e7b;
+    padding: .5vh 1vh;
+    width: 100%; 
+    border-left: 1vh solid #103e7b;
+  }
+  
+  .user::placeholder,
+  .password::placeholder {
+    color: #010202;
+  }
+  
+  
+  .checkbox-and-forgot {
+    display: flex;
+    padding-top: 2vh;
+    align-items: center;
+    margin: 1vh;
+    margin-top: 0; 
+    gap: 20vh;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+    color: #103e7b;
+    
+  }
+  
+  .check input {
+    margin-right: 1vh;
+    color: #103e7b;
+    text-decoration: none;
+    font-size: 30vh;
+  }
+
+  
+  .submit-container {
+    display: flex;
+    gap: 3vh; 
+    margin: 3vh auto;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 5.9vh;
+    background-color: #2563b6;
+    color: #ffffff;
+    border-radius: 5vh;
+    font-size: 1.9vh;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+  }
+  
+  
+  .forgot-pass {
+    color: #103e7b;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  
+  .horizontal-line-user {
+    width: 90%;
+    border: none;
+    padding: -20vh;
+    margin: 1vh auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line-user {
+    flex: 1;
+    background-color: #103e7b;
+    height: .5vh;
+    padding: auto;
+  }
+  
+  .line-text-user{
+    margin-bottom: 0vh;
+    color: #103e7b;
+    
+  }
+
+ 
+.password input[type="password"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #103e7b;
+    padding: .5vh  .10vh;
+    width: 100%;
+    border-left: .1vh solid #103e7b;
+  }
+  
+  .password input[type="text"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #103e7b;
+    padding: 2vh 4vh; /* Converted from 5px 10px */
+    width: 100%;
+    border-left: 0.7vh solid #103e7b; /* Converted from 1px */
+}
+
+/* Button to toggle password visibility */
+.password button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Icon for the button */
+.password button svg {
+    color: #103e7b;
+    font-size: 5vh; /* Converted from 20px */
+}
+
+  .purpose-dropdown {
+    display: flex;
+    align-items: center;
+    margin: 1vh;
+    width: 50%;
+    max-width: 48vh;
+    height: 6vh;
+    background: #a8dbfa;
+    border-radius: 1.6vh;
+    color: #ffffff;
+    padding: .5vh;
+  }
+  
+  .purpose-dropdown select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #103e7b;
+    padding: .5vh .10vh;
+    width: 100%;
+  }
+  
+  .purpose-dropdown::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 25%;
+    right: 1vh;
+    pointer-events: none;
+  }
+  #purpose{
+    font-size: 2vh;
+  }
+  .purpose-dropdown option {
+    font-size: 2vh;
+  }
+  .purpose-dropdown label {
+    display: none; /* Hide the label */
+  }
+  
+  /* Styling when the dropdown is focused */
+  .purpose-dropdown:focus-within {
+    box-shadow: 0 0 0 2vh #50bae2; /* Example color */
+
+  }
+  
+  /* Styling when the dropdown is hovered */
+  .purpose-dropdown:hover {
+    background-color: #c9f0ff; /* Example color */
+  }
+  

@@ -1,0 +1,140 @@
+.Details{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+}
+
+.Doctor_container {
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    overflow: hidden;
+    margin: 0 auto; /* Center the container horizontally */
+    top: 10vh;
+    background-color: #0f4182;;
+    border-radius: 3vh;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .Doctor_Image {
+    position: relative; 
+    width: auto;
+    height: 45vh;
+    padding-left: 5vh;
+    object-fit: cover;
+    z-index: 0;
+    opacity: .9;
+  }
+  
+  .Doctor_overlay {
+    margin-top: 1vh;
+    width: 50%; /* Adjust width */
+    color: white;
+    padding: 0 2vw; /* Adjust padding using viewport width */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute; /* Change to absolute */
+    top: 50%; /* Move to the middle */
+    left: 65%; /* Move to the middle */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    z-index: 1;
+    text-align: center; /* Center align text */
+}
+
+.Doctor_overlay h1,
+.Doctor_overlay h2,
+.Doctor_overlay span {
+    position: relative; /* Keep position relative */
+    display: block; /* Ensure the text is displayed as block */
+    margin: 0; /* Remove any default margin */
+}
+
+.Doctor_overlay h1 {
+    font-size: 10vh;
+}
+
+.Doctor_overlay h2 {
+    font-size: 3vh;
+    color: white;
+}
+
+.Doctor_overlay span {
+    font-size: 2vh;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .Doctor_container,
+    .Nurse_container {
+      width: 90%; /* Adjust width for smaller screens */
+      height: 40vh; /* Adjust height for smaller screens */
+      margin: 5vh auto; /* Center the container horizontally and add some margin */
+    }
+  
+    .Doctor_overlay,
+    .Nurse_overlay {
+      width: 80%; /* Adjust width for smaller screens */
+      padding: 0 3vw; /* Adjust padding using viewport width */
+    }
+  }
+  
+  
+.Nurse_container {
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    overflow: hidden;
+    margin: 0 auto; /* Center the container horizontally */
+    top: 10vh;
+    background-color: #0f4182;;
+    border-radius: 3vh;
+    display: flex; 
+    margin-top: 4vh;
+    margin-bottom: 18vh;
+    align-items: center; 
+  }
+  
+  .Nurse_Image {
+    position: relative; 
+    width: auto;
+    height: 45vh;
+    padding-left: 5vh;
+    object-fit: cover;
+    z-index: 0;
+    opacity: .9;
+  }
+  
+  .Nurse_overlay {
+    margin-top: 1vh;
+    width: 50%; /* Adjust width */
+    color: white;
+    padding: 0 2vw; /* Adjust padding using viewport width */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute; /* Change to absolute */
+    top: 50%; /* Move to the middle */
+    left: 65%; /* Move to the middle */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    z-index: 1;
+    text-align: center; /* Center align text */
+}
+
+.Nurse_overlay h1,
+.Nurse_overlay h2,
+.Nurse_overlay span {
+    position: relative; /* Keep position relative */
+    display: block; /* Ensure the text is displayed as block */
+    margin: 0; /* Remove any default margin */
+}
+
+.Nurse_overlay h1 {
+    font-size: 10vh;
+}
+
+.Nurse_overlay h2 {
+    font-size: 3vh;
+    color: white;
+}
+
+.Nurse_overlay span {
+    font-size: 2vh;
+}

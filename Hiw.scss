@@ -1,0 +1,111 @@
+.bg_HIW{
+  margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+}
+
+.hiw-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    background: linear-gradient(to left, #014BAE, #4FB8E1);
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+   
+  }
+
+.HIWBANNER-image-container {
+    position: relative;
+    width: 90%;
+    height: 60vh; /* Adjust the height as needed, half the viewport height */
+    overflow: hidden;
+    top: 1vh;
+}
+
+.HIWBANNER-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    z-index: 0;
+}
+
+.text01-overlay {
+    margin-top: 1vh; /* Adjust as needed */
+    padding: 0vh 6vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; /* Add position:relative to text elements */
+    z-index: 1; /* Higher z-index for text */
+}
+
+.text01-overlay h1 {
+    font-size: 8.5vh;
+    color: #A5DAF8;
+    font-weight: bold;
+}
+
+.text01-overlay p {
+    font-size: 2.5vh;
+    color: #A5DAF8;
+    font-weight: bold;
+    text-align: justify;
+    width: 50%;
+    margin-top: -2vh;
+}
+
+
+  
+  .text-02 {
+    text-align: center;
+    margin-top: -6vh; /* Adjust as needed */
+    margin-left: 20vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+   
+  }
+
+
+  .text-02 h1 {
+    font-size: 4.5vh; /* Adjust as needed */
+    color: #144E90;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 2vh;  
+  }
+
+.IMG1-list {
+    list-style: none;
+    justify-content: center; 
+    align-items: center;
+    margin: 5vh 2vh; 
+}
+  
+.IMG1-list li {
+    margin: 0 1vh; /* Add margin between the profile images */
+  }
+  
+.LIST1-image {
+    width: 30vh; /* Adjust the image width as needed */
+    height: auto; /* Let the height adjust proportionally */
+  }
+
+  .image1-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-left: 20vh;
+  }
+  
+  .image1-container1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5vh;
+    padding-left: 20vh;
+  }
+
+  

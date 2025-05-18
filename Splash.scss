@@ -1,0 +1,100 @@
+.container-splash {
+  height: 100vh;
+  background: linear-gradient(to left, #014BAE, #4FB8E1);
+}
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+  background: linear-gradient(to left, #014BAE, #4FB8E1);
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  height: 630px;
+}
+
+
+.splash-container h1 {
+  font-size: 4rem;
+  margin-left: 70px;
+  color: #0F4182;
+  font-weight: bold;
+}
+
+.splash-container p {
+  font-size: 1.6rem;
+  margin-left: 70px;
+  color: #0F4182;
+}
+
+.create-account {
+  background-color: #A5DAF8;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 21px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 70px;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #319DDB;
+}
+
+.create-account:hover {
+  background-color: #306aa8;
+}
+
+.mascot-image {
+  position: absolute; /* Change to absolute */
+  bottom: 1;
+  right: 170px;
+  width: 600px;
+  height: auto;
+  z-index: 1;
+}
+
+.design-image {
+  position: absolute; /* Change to absolute */
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: auto;
+  z-index: 1;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .splash-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .splash-container h1 {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+
+  .splash-container p {
+    font-size: 1.4rem;
+    margin-left: 0;
+  }
+
+  .create-account {
+    margin-left: 0;
+  }
+
+  .mascot-image {
+    display: none;
+  }
+
+  .design-image {
+    display: none;
+  }
+}

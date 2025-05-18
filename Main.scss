@@ -1,0 +1,28 @@
+body{
+  margin: 0; /* Reset default margin to ensure the background covers the entire page */
+  font-family: 'Kollektif', sans-serif;
+  height: 100%;
+  
+}
+
+.full-screen-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3498db; /* Loading overlay background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Make sure it's above other elements */
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeIn 0.5s ease-out forwards; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Fade to 1 opacity */
+    }
+  }
+  
